@@ -12,7 +12,10 @@ body{
 background-color:blanchedalmond;
 }
 
+img {
+width: 100%;
 
+}
 
 /* Navigation */
 nav ul{
