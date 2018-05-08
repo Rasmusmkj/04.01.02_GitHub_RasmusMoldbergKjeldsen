@@ -1,6 +1,5 @@
 /* Basis styles */
 html {
-    color: #222;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -12,9 +11,11 @@ margin: 10px;
 
 h1,h2,h3,h4{
 font-family: "Gloria Hallelujah";
-
 }
 
+h1{
+font-size: 2em;
+}
 p {
 font-family: "Roboto";
 
@@ -31,7 +32,7 @@ text-decoration: none;
 
 }
 img {
-max-width:100%;
+max-width:50%;
 }
 
 section {
@@ -61,13 +62,13 @@ nav ul{
 
 nav ul li {
     position: relative;
-    padding-right: 2em;
+    padding-right: 3em;
+    padding-left:1em;
 }
 
 .dropdown > ul {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
     z-index: 1;
@@ -81,6 +82,4 @@ nav ul li {
 .dropdown:hover > ul {
     display: block;
     background-color: black;
-    text-decoration: underline;
-
 }
