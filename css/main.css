@@ -3,27 +3,62 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
-    font-family: "Roboto", Arial;
 }
 
 body{
-  max-width: 1200px;
-  margin: 0 auto;
-background-color:blanchedalmond;
+  max-width: 1600px;
+margin: 10px;
 }
 
+h1,h2,h3,h4{
+font-family: "Gloria Hallelujah";
+
+}
+
+p {
+font-family: "Roboto";
+
+
+}
+
+a {
+text-decoration: none;
+color: grey;
+}
+
+a:visited{
+text-decoration: none;
+
+}
 img {
 max-width:100%;
 }
 
+section {
+padding: 0;
+}
 /* Navigation */
+
+nav {
+font-family: "Roboto";
+background-color: black;
+display: flex;
+margin: 0px;
+padding: 0 !important;
+
+
+
+
+}
 nav ul{
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
   list-style: none;
   padding-left: 0;
+
 }
+
 nav ul li {
     position: relative;
     padding-right: 2em;
@@ -45,4 +80,7 @@ nav ul li {
 
 .dropdown:hover > ul {
     display: block;
+    background-color: black;
+    text-decoration: underline;
+
 }
